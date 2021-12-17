@@ -20,12 +20,12 @@ namespace Sample701
         {
             Console.WriteLine("名前：{0} 年齢：{1}", name, age);
         }
-        public string Name
+        public string Name  // Nameプロパティ定義
         {
             set { name = value; }
             get { return name; }
         }
-        public int Age
+        public int Age      // Ageプロパティ定義
         {
             set { age = value; }
             get { return age; }
